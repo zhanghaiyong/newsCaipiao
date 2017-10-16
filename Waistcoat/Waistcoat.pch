@@ -1,0 +1,29 @@
+//
+//  Waistcoat.pch
+//  Waistcoat
+//
+//  Created by zhy on 2017/9/14.
+//  Copyright © 2017年 zhy. All rights reserved.
+//
+
+#ifndef Waistcoat_pch
+#define Waistcoat_pch
+
+#import <AVOSCloud/AVOSCloud.h>
+#import "MJRefresh.h"
+#import "BaseViewController.h"
+#import "UIColor+XTExtension.h"
+#import "CALayer+TextFieldBoardColor.h"
+#import "UIViewExt.h"
+#import "Defaults.h"
+#import "NSURLs.h"
+#import "Uitils.h"
+#import "AFNetworking.h"
+#import <MJExtension.h>
+#import "ZHProgressHUD.h"
+#import <IQKeyboardManager.h>
+#import "KSMNetworkRequest.h"
+#import "UIImageView+WebCache.h"
+#import <SMS_SDK/SMSSDK.h>
+#import "AccountModel.h"
+#endif /* Waistcoat_pch */
