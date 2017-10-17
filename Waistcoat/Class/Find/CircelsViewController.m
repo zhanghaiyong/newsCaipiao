@@ -84,7 +84,7 @@
     [self.view addSubview:segmentView];
     
     //圈子
-    circelTableV = [[UITableView alloc]initWithFrame:CGRectMake(0, segmentView.bottom, kDeviceWidth, KDeviceHeight-(segmentView.height+49+kStatusBarHeight+kNavigationBarHeight))];
+    circelTableV = [[UITableView alloc]initWithFrame:CGRectMake(0, segmentView.bottom, kDeviceWidth, KDeviceHeight-(segmentView.height+kStatusBarHeight+kNavigationBarHeight))];
     circelTableV.tableFooterView = [UIView new];
     circelTableV.delegate = self;
     circelTableV.dataSource = self;

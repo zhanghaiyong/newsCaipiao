@@ -646,7 +646,7 @@
 					99B829EF1F6A15980079C1CC = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 4XH337X4G3;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -949,7 +949,7 @@
 				CODE_SIGN_ENTITLEMENTS = Waistcoat/Waistcoat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4XH337X4G3;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Waistcoat/Waistcoat.pch";
@@ -962,8 +962,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xianliang.caipiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "00a1587d-f2a2-4e4d-bc01-6ac49f959675";
+				PROVISIONING_PROFILE_SPECIFIER = caipiaoDevPro;
 			};
 			name = Debug;
 		};
@@ -975,8 +975,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Waistcoat/Waistcoat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4XH337X4G3;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Waistcoat/Waistcoat.pch";
@@ -989,8 +989,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xianliang.caipiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "26369310-2151-4c9c-9e3f-4a490b89ee2c";
+				PROVISIONING_PROFILE_SPECIFIER = caipiaoDisPro;
 			};
 			name = Release;
 		};
