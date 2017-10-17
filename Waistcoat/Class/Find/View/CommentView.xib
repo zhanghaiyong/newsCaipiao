@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CommentView">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m0k-B3-Pqx">
+                    <rect key="frame" x="20" y="7" width="194" height="26"/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="26" id="hPQ-7L-g5k"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="    写评论">
+                        <color key="titleColor" white="0.33333333333333331" alpha="0.81009203767123283" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="13"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="commentAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="lVj-q3-oa9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j0i-ZN-UKJ">
+                    <rect key="frame" x="278" y="8" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="2KS-vr-NNE"/>
+                        <constraint firstAttribute="width" constant="24" id="nqI-fN-CgD"/>
+                    </constraints>
+                    <state key="normal" image="分享"/>
+                    <connections>
+                        <action selector="shareAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Ok6-Z3-tIV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f26-rC-Lfg">
+                    <rect key="frame" x="234" y="8" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="dju-ar-0n1"/>
+                        <constraint firstAttribute="height" constant="24" id="mFJ-aE-QER"/>
+                    </constraints>
+                    <state key="normal" image="收藏"/>
+                    <state key="selected" image="收藏ED"/>
+                    <connections>
+                        <action selector="collectAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="dzs-1Y-yLs"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="itU-Xj-wh8">
+                    <rect key="frame" x="0.0" y="0.0" width="322" height="1"/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="11u-uI-d1q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="itU-Xj-wh8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="1XJ-LA-oFR"/>
+                <constraint firstAttribute="trailing" secondItem="j0i-ZN-UKJ" secondAttribute="trailing" constant="20" id="9AF-ch-D8H"/>
+                <constraint firstItem="itU-Xj-wh8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CTG-Cc-79P"/>
+                <constraint firstItem="j0i-ZN-UKJ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="G0d-fG-Tp5"/>
+                <constraint firstItem="f26-rC-Lfg" firstAttribute="leading" secondItem="m0k-B3-Pqx" secondAttribute="trailing" constant="20" id="Njk-uY-yG2"/>
+                <constraint firstItem="m0k-B3-Pqx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="SG2-Qm-dlW"/>
+                <constraint firstItem="j0i-ZN-UKJ" firstAttribute="leading" secondItem="f26-rC-Lfg" secondAttribute="trailing" constant="20" id="gpg-HF-tN3"/>
+                <constraint firstItem="f26-rC-Lfg" firstAttribute="centerY" secondItem="j0i-ZN-UKJ" secondAttribute="centerY" id="jMt-1X-8SC"/>
+                <constraint firstAttribute="trailing" secondItem="itU-Xj-wh8" secondAttribute="trailing" id="sxH-fO-lJh"/>
+                <constraint firstItem="m0k-B3-Pqx" firstAttribute="centerY" secondItem="f26-rC-Lfg" secondAttribute="centerY" id="wpM-IN-ADW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="tapToCommentBtn" destination="m0k-B3-Pqx" id="aZo-Et-0Kx"/>
+            </connections>
+            <point key="canvasLocation" x="-231" y="128"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="分享" width="24" height="24"/>
+        <image name="收藏" width="24" height="24"/>
+        <image name="收藏ED" width="24" height="24"/>
+    </resources>
+</document>

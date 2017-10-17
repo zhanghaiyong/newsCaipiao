@@ -17,6 +17,7 @@
 {
     AccountModel *account;
 }
+
 @property (weak, nonatomic) IBOutlet UIImageView *avatar;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 @property (weak, nonatomic) IBOutlet UIImageView *arrowImg;

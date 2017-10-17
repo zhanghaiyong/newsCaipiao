@@ -45,6 +45,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = @"圈子";
     SegmentTitleView *segmentView = [[SegmentTitleView alloc]initWithFrame:CGRectMake(0, kStatusBarHeight+kNavigationBarHeight, kDeviceWidth, 40) titles:@[@"圈子",@"热贴",@"我关注的"]];
     segmentView.tapLabBack = ^(NSInteger index) {
         

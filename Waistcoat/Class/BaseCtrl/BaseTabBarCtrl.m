@@ -11,6 +11,7 @@
 #import "NewsViewController.h"
 #import "CircelsViewController.h"
 #import "ProfileViewController.h"
+#import "FindTableViewController.h"
 @interface BaseTabBarCtrl ()
 
 @end
@@ -47,10 +48,10 @@
     GuessVC.tabBarItem.image = [UIImage imageNamed:@"开奖"];
     UINavigationController *guessNavi = [[UINavigationController alloc]initWithRootViewController:GuessVC];
     
-    CircelsViewController *circelVC = [[CircelsViewController alloc]init];
-    circelVC.title = @"圈子";
-    circelVC.tabBarItem.image = [UIImage imageNamed:@"圈子"];
-    UINavigationController *circelNavi = [[UINavigationController alloc]initWithRootViewController:circelVC];
+    FindTableViewController *FindVC = [[FindTableViewController alloc]init];
+    FindVC.title = @"发现";
+    FindVC.tabBarItem.image = [UIImage imageNamed:@"发现"];
+    UINavigationController *FindNavi = [[UINavigationController alloc]initWithRootViewController:FindVC];
     
     
     UIStoryboard *SB = [UIStoryboard storyboardWithName:@"Profile" bundle:nil];
@@ -59,7 +60,7 @@
     LoginVC.tabBarItem.image = [UIImage imageNamed:@"我的"];
     UINavigationController *LoginNavi = [[UINavigationController alloc]initWithRootViewController:LoginVC];
     
-    self.viewControllers = @[newsNavi,guessNavi,circelNavi,LoginNavi];
+    self.viewControllers = @[newsNavi,guessNavi,FindNavi,LoginNavi];
     
 }
 

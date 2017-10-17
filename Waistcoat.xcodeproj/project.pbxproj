@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		27944FE8A0295B94560370FD /* libPods-Waistcoat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF48F403407AA731C0DAF1DA /* libPods-Waistcoat.a */; };
+		9958AE7C1F95A8B0004F5249 /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE7B1F95A8B0004F5249 /* FindTableViewController.m */; };
+		9958AE7F1F95ABA8004F5249 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE7D1F95ABA8004F5249 /* PersonViewController.m */; };
+		9958AE821F95ABDD004F5249 /* HotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE801F95ABDD004F5249 /* HotModel.m */; };
+		9958AE861F95ABE7004F5249 /* NormalHotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE851F95ABE7004F5249 /* NormalHotCell.m */; };
+		9958AE891F95ABFA004F5249 /* HotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE871F95ABFA004F5249 /* HotDetailViewController.m */; };
+		9958AE8C1F95AC4B004F5249 /* HotDetailCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE8A1F95AC4A004F5249 /* HotDetailCommentModel.m */; };
+		9958AE901F95AC64004F5249 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE8F1F95AC64004F5249 /* CommentView.m */; };
+		9958AE941F95AC6B004F5249 /* WriteCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE911F95AC6B004F5249 /* WriteCommentView.m */; };
+		9958AE981F95AC80004F5249 /* HotDetailCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9958AE961F95AC80004F5249 /* HotDetailCommentCell.m */; };
+		9958AE991F95ADC0004F5249 /* HotDetailCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9958AE971F95AC80004F5249 /* HotDetailCommentCell.xib */; };
+		9958AE9A1F95ADC0004F5249 /* WriteCommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9958AE921F95AC6B004F5249 /* WriteCommentView.xib */; };
+		9958AE9B1F95ADC0004F5249 /* CommentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9958AE8D1F95AC63004F5249 /* CommentView.xib */; };
+		9958AE9C1F95ADC0004F5249 /* NormalHotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9958AE841F95ABE7004F5249 /* NormalHotCell.xib */; };
 		9995A39C1F6F75D4001ECA49 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9995A39B1F6F75D4001ECA49 /* UserNotifications.framework */; };
 		9995A39F1F6F76AA001ECA49 /* AppDelegate+UPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 9995A39E1F6F76AA001ECA49 /* AppDelegate+UPush.m */; };
 		9999CEE81F6B697C00ABA069 /* CircleListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9999CEE71F6B697C00ABA069 /* CircleListModel.m */; };
@@ -86,6 +99,28 @@
 
 /* Begin PBXFileReference section */
 		20D5707932598268C47756BA /* Pods-Waistcoat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Waistcoat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Waistcoat/Pods-Waistcoat.release.xcconfig"; sourceTree = "<group>"; };
+		9958AE7A1F95A8B0004F5249 /* FindTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindTableViewController.h; sourceTree = "<group>"; };
+		9958AE7B1F95A8B0004F5249 /* FindTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindTableViewController.m; sourceTree = "<group>"; };
+		9958AE7D1F95ABA8004F5249 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		9958AE7E1F95ABA8004F5249 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		9958AE801F95ABDD004F5249 /* HotModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotModel.m; sourceTree = "<group>"; };
+		9958AE811F95ABDD004F5249 /* HotModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotModel.h; sourceTree = "<group>"; };
+		9958AE831F95ABE6004F5249 /* NormalHotCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalHotCell.h; sourceTree = "<group>"; };
+		9958AE841F95ABE7004F5249 /* NormalHotCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalHotCell.xib; sourceTree = "<group>"; };
+		9958AE851F95ABE7004F5249 /* NormalHotCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalHotCell.m; sourceTree = "<group>"; };
+		9958AE871F95ABFA004F5249 /* HotDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotDetailViewController.m; sourceTree = "<group>"; };
+		9958AE881F95ABFA004F5249 /* HotDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotDetailViewController.h; sourceTree = "<group>"; };
+		9958AE8A1F95AC4A004F5249 /* HotDetailCommentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotDetailCommentModel.m; sourceTree = "<group>"; };
+		9958AE8B1F95AC4B004F5249 /* HotDetailCommentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotDetailCommentModel.h; sourceTree = "<group>"; };
+		9958AE8D1F95AC63004F5249 /* CommentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentView.xib; sourceTree = "<group>"; };
+		9958AE8E1F95AC63004F5249 /* CommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommentView.h; sourceTree = "<group>"; };
+		9958AE8F1F95AC64004F5249 /* CommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommentView.m; sourceTree = "<group>"; };
+		9958AE911F95AC6B004F5249 /* WriteCommentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WriteCommentView.m; sourceTree = "<group>"; };
+		9958AE921F95AC6B004F5249 /* WriteCommentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WriteCommentView.xib; sourceTree = "<group>"; };
+		9958AE931F95AC6B004F5249 /* WriteCommentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WriteCommentView.h; sourceTree = "<group>"; };
+		9958AE951F95AC7F004F5249 /* HotDetailCommentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotDetailCommentCell.h; sourceTree = "<group>"; };
+		9958AE961F95AC80004F5249 /* HotDetailCommentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotDetailCommentCell.m; sourceTree = "<group>"; };
+		9958AE971F95AC80004F5249 /* HotDetailCommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HotDetailCommentCell.xib; sourceTree = "<group>"; };
 		9995A39B1F6F75D4001ECA49 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		9995A39D1F6F76AA001ECA49 /* AppDelegate+UPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UPush.h"; sourceTree = "<group>"; };
 		9995A39E1F6F76AA001ECA49 /* AppDelegate+UPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UPush.m"; sourceTree = "<group>"; };
@@ -253,6 +288,18 @@
 		9999CEE41F6B696200ABA069 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9958AE951F95AC7F004F5249 /* HotDetailCommentCell.h */,
+				9958AE961F95AC80004F5249 /* HotDetailCommentCell.m */,
+				9958AE971F95AC80004F5249 /* HotDetailCommentCell.xib */,
+				9958AE931F95AC6B004F5249 /* WriteCommentView.h */,
+				9958AE911F95AC6B004F5249 /* WriteCommentView.m */,
+				9958AE921F95AC6B004F5249 /* WriteCommentView.xib */,
+				9958AE8E1F95AC63004F5249 /* CommentView.h */,
+				9958AE8F1F95AC64004F5249 /* CommentView.m */,
+				9958AE8D1F95AC63004F5249 /* CommentView.xib */,
+				9958AE831F95ABE6004F5249 /* NormalHotCell.h */,
+				9958AE851F95ABE7004F5249 /* NormalHotCell.m */,
+				9958AE841F95ABE7004F5249 /* NormalHotCell.xib */,
 				9999CEEC1F6B760500ABA069 /* HotPostCell.h */,
 				9999CEED1F6B760500ABA069 /* HotPostCell.m */,
 				9999CEEE1F6B760500ABA069 /* HotPostCell.xib */,
@@ -272,6 +319,10 @@
 		9999CEE51F6B696200ABA069 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9958AE8B1F95AC4B004F5249 /* HotDetailCommentModel.h */,
+				9958AE8A1F95AC4A004F5249 /* HotDetailCommentModel.m */,
+				9958AE811F95ABDD004F5249 /* HotModel.h */,
+				9958AE801F95ABDD004F5249 /* HotModel.m */,
 				9999CEE61F6B697C00ABA069 /* CircleListModel.h */,
 				9999CEE71F6B697C00ABA069 /* CircleListModel.m */,
 				9999CEE91F6B74C600ABA069 /* HotPostsModel.h */,
@@ -389,7 +440,7 @@
 				99AB4BFF1F9464BC00263977 /* LoginCtrl */,
 				99B82A3D1F6A57C00079C1CC /* Guess */,
 				99B82A3B1F6A57C00079C1CC /* News */,
-				99B82A661F6A805B0079C1CC /* Circels */,
+				99B82A661F6A805B0079C1CC /* Find */,
 				99A774191F94520700BE5F39 /* Personal */,
 			);
 			path = Class;
@@ -489,14 +540,20 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		99B82A661F6A805B0079C1CC /* Circels */ = {
+		99B82A661F6A805B0079C1CC /* Find */ = {
 			isa = PBXGroup;
 			children = (
 				9999CEE41F6B696200ABA069 /* View */,
 				9999CEE51F6B696200ABA069 /* Model */,
+				9958AE7A1F95A8B0004F5249 /* FindTableViewController.h */,
+				9958AE7B1F95A8B0004F5249 /* FindTableViewController.m */,
 				99B82A671F6A80700079C1CC /* CircelsViewController.h */,
 				99B82A681F6A80700079C1CC /* CircelsViewController.m */,
 				99B82A691F6A80700079C1CC /* CircelsViewController.xib */,
+				9958AE7E1F95ABA8004F5249 /* PersonViewController.h */,
+				9958AE7D1F95ABA8004F5249 /* PersonViewController.m */,
+				9958AE881F95ABFA004F5249 /* HotDetailViewController.h */,
+				9958AE871F95ABFA004F5249 /* HotDetailViewController.m */,
 				9999CEF11F6B811000ABA069 /* CircelDetailViewController.h */,
 				9999CEF21F6B811000ABA069 /* CircelDetailViewController.m */,
 				9999CEF31F6B811000ABA069 /* CircelDetailViewController.xib */,
@@ -507,7 +564,7 @@
 				9999CEF71F6B876700ABA069 /* PostDetailViewController.m */,
 				9999CEF81F6B876700ABA069 /* PostDetailViewController.xib */,
 			);
-			path = Circels;
+			path = Find;
 			sourceTree = "<group>";
 		};
 		99F8B79B1F73697700E40024 /* Thirds */ = {
@@ -588,7 +645,7 @@
 				TargetAttributes = {
 					99B829EF1F6A15980079C1CC = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = AKEZGLTY8R;
+						DevelopmentTeam = 4XH337X4G3;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -624,6 +681,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9958AE991F95ADC0004F5249 /* HotDetailCommentCell.xib in Resources */,
+				9958AE9A1F95ADC0004F5249 /* WriteCommentView.xib in Resources */,
+				9958AE9B1F95ADC0004F5249 /* CommentView.xib in Resources */,
+				9958AE9C1F95ADC0004F5249 /* NormalHotCell.xib in Resources */,
 				99E22E7A1F94B2D80020174A /* PersonMsg.storyboard in Resources */,
 				9999CEFA1F6B876700ABA069 /* PostDetailViewController.xib in Resources */,
 				99B82A481F6A60840079C1CC /* GuessViewController.xib in Resources */,
@@ -707,7 +768,9 @@
 			files = (
 				99AB4C191F9491AA00263977 /* MsgSettingTableViewController.m in Sources */,
 				99AB4C1A1F9491AA00263977 /* PersonMsgTableViewController.m in Sources */,
+				9958AE861F95ABE7004F5249 /* NormalHotCell.m in Sources */,
 				99AB4C1B1F9491AA00263977 /* SignTableViewController.m in Sources */,
+				9958AE821F95ABDD004F5249 /* HotModel.m in Sources */,
 				99AB4C1C1F9491AA00263977 /* LoginTableViewController.m in Sources */,
 				99AB4C1D1F9491AA00263977 /* RegisterTableViewController.m in Sources */,
 				99AB4C1E1F9491AA00263977 /* FindPwdTableViewController.m in Sources */,
@@ -717,11 +780,14 @@
 				99B82A641F6A7FBB0079C1CC /* BaseViewController.m in Sources */,
 				99B82A1D1F6A33720079C1CC /* Uitils.m in Sources */,
 				9999CEF41F6B811000ABA069 /* CircelDetailViewController.m in Sources */,
+				9958AE7C1F95A8B0004F5249 /* FindTableViewController.m in Sources */,
 				BF0FFB151F6D050A00F52482 /* QGDetailModel.m in Sources */,
 				99B829F81F6A15980079C1CC /* AppDelegate.m in Sources */,
 				BF0FFB111F6D023A00F52482 /* OpenAwardDetailViewController.m in Sources */,
 				9999CEE81F6B697C00ABA069 /* CircleListModel.m in Sources */,
 				BF0FFB4C1F6D383500F52482 /* FeedbackViewController.m in Sources */,
+				9958AE941F95AC6B004F5249 /* WriteCommentView.m in Sources */,
+				9958AE8C1F95AC4B004F5249 /* HotDetailCommentModel.m in Sources */,
 				99B82A521F6A62FA0079C1CC /* CALayer+TextFieldBoardColor.m in Sources */,
 				99AB4BFE1F94649E00263977 /* AccountModel.m in Sources */,
 				99F8B7B21F73697700E40024 /* ZHProgressHUD.m in Sources */,
@@ -735,11 +801,14 @@
 				9999CF071F6B953200ABA069 /* PostDetailModel.m in Sources */,
 				9999CF0B1F6B9DB300ABA069 /* PostDetailCell.m in Sources */,
 				99F8B7AD1F73697700E40024 /* ShareManagerCtrl.m in Sources */,
+				9958AE981F95AC80004F5249 /* HotDetailCommentCell.m in Sources */,
 				99A8A96C1F736D67000E4DE2 /* TakePhotoViewController.m in Sources */,
 				99F8B7AE1F73697700E40024 /* SVIndefiniteAnimatedView.m in Sources */,
 				9995A39F1F6F76AA001ECA49 /* AppDelegate+UPush.m in Sources */,
 				BF0FFB491F6D2EBD00F52482 /* ProfileViewController.m in Sources */,
+				9958AE891F95ABFA004F5249 /* HotDetailViewController.m in Sources */,
 				99B82A1A1F6A336B0079C1CC /* UIViewExt.m in Sources */,
+				9958AE901F95AC64004F5249 /* CommentView.m in Sources */,
 				99B82A6A1F6A80700079C1CC /* CircelsViewController.m in Sources */,
 				99F8B7B11F73697700E40024 /* SVRadialGradientLayer.m in Sources */,
 				BF0FFB261F6D0D6D00F52482 /* AwardInCell.m in Sources */,
@@ -747,6 +816,7 @@
 				9999CF141F6BD5B300ABA069 /* QGModel.m in Sources */,
 				9999CEEF1F6B760500ABA069 /* HotPostCell.m in Sources */,
 				9999CEEB1F6B74C600ABA069 /* HotPostsModel.m in Sources */,
+				9958AE7F1F95ABA8004F5249 /* PersonViewController.m in Sources */,
 				99B829F51F6A15980079C1CC /* main.m in Sources */,
 				99F8B7B01F73697700E40024 /* SVProgressHUD.m in Sources */,
 				99B82A5F1F6A7BB60079C1CC /* NewsViewController.m in Sources */,
@@ -880,7 +950,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				DEVELOPMENT_TEAM = 4XH337X4G3;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Waistcoat/Waistcoat.pch";
 				INFOPLIST_FILE = Waistcoat/Info.plist;
@@ -890,7 +960,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Waistcoat/SDK/UMessage_Sdk_1.5.0a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sosoyy.m.api;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianliang.caipiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -907,7 +977,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AKEZGLTY8R;
+				DEVELOPMENT_TEAM = 4XH337X4G3;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Waistcoat/Waistcoat.pch";
 				INFOPLIST_FILE = Waistcoat/Info.plist;
@@ -917,7 +987,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Waistcoat/SDK/UMessage_Sdk_1.5.0a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sosoyy.m.api;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xianliang.caipiao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

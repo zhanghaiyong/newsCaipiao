@@ -37,6 +37,18 @@
     [self.view addSubview:tableV];
     [tableV.mj_header beginRefreshing];
     
+    
+    UIButton *shareBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 40, 40)];
+    [shareBtn setImage:[UIImage imageNamed:@"share"] forState:UIControlStateNormal];
+    [shareBtn addTarget:self action:@selector(shareNews) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *shareItem = [[UIBarButtonItem alloc]initWithCustomView:shareBtn];
+    self.navigationItem.rightBarButtonItem = shareItem;
+    
+}
+
+- (void)shareNews {
+    UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:@[self.title,[NSString stringWithFormat:@"%@期",datas[@"issue"]], [NSString stringWithFormat:@"本期销量%@",datas[@"sale"]]] applicationActivities:nil];
+    [self presentViewController:activity animated:YES completion:nil];
 }
 
 - (void)refreshData {

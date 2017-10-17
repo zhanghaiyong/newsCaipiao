@@ -32,7 +32,7 @@
     
  
     fold = [NSMutableArray array];
-    SegmentTitleView *segmentView = [[SegmentTitleView alloc]initWithFrame:CGRectMake(0, kStatusBarHeight+kNavigationBarHeight, kDeviceWidth, 40) titles:@[@"全国",@"地方",@"高频"]];
+    SegmentTitleView *segmentView = [[SegmentTitleView alloc]initWithFrame:CGRectMake(0, kStatusBarHeight+kNavigationBarHeight, kDeviceWidth, 40) titles:@[@"全部",@"省份",@"高概率"]];
     segmentView.tapLabBack = ^(NSInteger index) {
         segIndex = index;
         
