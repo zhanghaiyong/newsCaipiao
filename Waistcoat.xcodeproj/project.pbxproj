@@ -400,26 +400,26 @@
 		99B829F21F6A15980079C1CC /* Waistcoat */ = {
 			isa = PBXGroup;
 			children = (
-				9995A3A01F6F7818001ECA49 /* Waistcoat.entitlements */,
+				99AB4BFC1F94649A00263977 /* AccountModel.h */,
+				99AB4BFD1F94649C00263977 /* AccountModel.m */,
 				99B829F61F6A15980079C1CC /* AppDelegate.h */,
 				99B829F71F6A15980079C1CC /* AppDelegate.m */,
 				9995A39D1F6F76AA001ECA49 /* AppDelegate+UPush.h */,
 				9995A39E1F6F76AA001ECA49 /* AppDelegate+UPush.m */,
-				99B82A581F6A689E0079C1CC /* Waistcoat.pch */,
-				99AB4BFC1F94649A00263977 /* AccountModel.h */,
-				99AB4BFD1F94649C00263977 /* AccountModel.m */,
-				99AB4C141F9484FB00263977 /* LoadingViewController.h */,
-				99AB4C151F9484FC00263977 /* LoadingViewController.m */,
-				99A8A96A1F736D67000E4DE2 /* TakePhotoViewController.h */,
-				99A8A96B1F736D67000E4DE2 /* TakePhotoViewController.m */,
+				99B829FF1F6A15980079C1CC /* Assets.xcassets */,
 				99B82A0A1F6A32070079C1CC /* Class */,
 				99B82A0B1F6A32070079C1CC /* Common */,
 				99B82A0C1F6A32070079C1CC /* Config */,
-				99F8B79B1F73697700E40024 /* Thirds */,
-				99B829FF1F6A15980079C1CC /* Assets.xcassets */,
-				99B82A011F6A15980079C1CC /* LaunchScreen.storyboard */,
 				99B82A041F6A15980079C1CC /* Info.plist */,
+				99B82A011F6A15980079C1CC /* LaunchScreen.storyboard */,
+				99AB4C141F9484FB00263977 /* LoadingViewController.h */,
+				99AB4C151F9484FC00263977 /* LoadingViewController.m */,
 				99B829F31F6A15980079C1CC /* Supporting Files */,
+				99A8A96A1F736D67000E4DE2 /* TakePhotoViewController.h */,
+				99A8A96B1F736D67000E4DE2 /* TakePhotoViewController.m */,
+				99F8B79B1F73697700E40024 /* Thirds */,
+				9995A3A01F6F7818001ECA49 /* Waistcoat.entitlements */,
+				99B82A581F6A689E0079C1CC /* Waistcoat.pch */,
 			);
 			path = Waistcoat;
 			sourceTree = "<group>";
@@ -948,7 +948,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = Waistcoat/Waistcoat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 4XH337X4G3;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
@@ -960,10 +960,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Waistcoat/SDK/UMessage_Sdk_1.5.0a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xianliang.caipiao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghy.ssc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "00a1587d-f2a2-4e4d-bc01-6ac49f959675";
-				PROVISIONING_PROFILE_SPECIFIER = caipiaoDevPro;
+				PROVISIONING_PROFILE = "bf0658b8-a9ab-4526-b6cd-1893f59bd3bd";
+				PROVISIONING_PROFILE_SPECIFIER = sscDis;
 			};
 			name = Debug;
 		};
@@ -987,10 +987,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Waistcoat/SDK/UMessage_Sdk_1.5.0a",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xianliang.caipiao;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghy.ssc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "26369310-2151-4c9c-9e3f-4a490b89ee2c";
-				PROVISIONING_PROFILE_SPECIFIER = caipiaoDisPro;
+				PROVISIONING_PROFILE = "bf0658b8-a9ab-4526-b6cd-1893f59bd3bd";
+				PROVISIONING_PROFILE_SPECIFIER = sscDis;
 			};
 			name = Release;
 		};

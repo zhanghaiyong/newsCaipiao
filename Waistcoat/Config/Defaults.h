@@ -15,7 +15,7 @@
 #define FxLog(...)
 #endif
 
-#define KJPUSHKEY @"a01fd9a5a7c0f8c345d80fc6"
+#define KJPUSHKEY @"020228333d1f4460267f3e50"
 
 #define kDeviceWidth [UIScreen mainScreen].bounds.size.width
 

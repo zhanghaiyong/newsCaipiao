@@ -44,7 +44,7 @@
     UINavigationController *newsNavi = [[UINavigationController alloc]initWithRootViewController:newsVC];
     
     GuessViewController *GuessVC = [[GuessViewController alloc]init];
-    GuessVC.title = @"开奖";
+    GuessVC.title = @"查询";
     GuessVC.tabBarItem.image = [UIImage imageNamed:@"开奖"];
     UINavigationController *guessNavi = [[UINavigationController alloc]initWithRootViewController:GuessVC];
     
